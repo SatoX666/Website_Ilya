@@ -1,9 +1,10 @@
 body {
   background-image: url(phon.jpg);
   overflow-x: hidden;
+  margin: 0%;
 }
 
-.menu {
+/* .menu {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -28,7 +29,34 @@ body {
 .menu li {
  display: inline;
  float: left;
-} 
+}  */
+
+nav {
+  background-color: #36a4ff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+nav * {
+  margin-right: 20px;
+}
+
+nav img {
+  margin-left: 1%;
+  margin-right: 3%;
+  filter: invert();
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 2%;
+}
 
 .book input {
   background-color:transparent !important;
