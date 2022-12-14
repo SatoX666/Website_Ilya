@@ -1,34 +1,39 @@
 body {
   background-image: url(phon.jpg);
   overflow-x: hidden;
-}
-
-.menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 0;
-    width: 300000px;    
-    overflow: hidden;
-    
-}
-.menu a {
-  text-decoration: none;
-  font-family: sans-serif;
-  color: #fdfdfd;
-  display: inline-block;
-  padding: 20px 20px;
-  background-color: rgba(255, 0, 0, 0);
-  outline: none;
-  margin-right: 440px;
-
-
   
+    margin: 0%;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: monospace, 'Courier New', Courier;
 }
-.menu li {
- display: inline;
- float: left;
-} 
+
+nav {
+  background-color: #36a4ff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+nav * {
+  margin-right: 20px;
+}
+
+nav img {
+  margin-left: 1%;
+  margin-right: 3%;
+  filter: invert();
+  cursor: pointer;
+}
+
+nav a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-left: 2%;
+}
 
 .book input {
   background-color:transparent !important;
