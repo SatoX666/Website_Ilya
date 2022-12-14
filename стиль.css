@@ -1,35 +1,12 @@
 body {
   background-image: url(phon.jpg);
   overflow-x: hidden;
-  margin: 0%;
-}
-
-/* .menu {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 0;
-    width: 300000px;    
-    overflow: hidden;
-    
-}
-.menu a {
-  text-decoration: none;
-  font-family: sans-serif;
-  color: #fdfdfd;
-  display: inline-block;
-  padding: 20px 20px;
-  background-color: rgba(255, 0, 0, 0);
-  outline: none;
-  margin-right: 440px;
-
-
   
+    margin: 0%;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: monospace, 'Courier New', Courier;
 }
-.menu li {
- display: inline;
- float: left;
-}  */
 
 nav {
   background-color: #36a4ff;
