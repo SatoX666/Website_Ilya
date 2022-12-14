@@ -7,7 +7,7 @@ if(sessionStorage.getItem('photo'+i)!=null){
 $('.sells').append('<section class="'+i+'"><div class="rew"><img SRC="'+sessionStorage.getItem('photo'+i)+'" height=300 width300>'+sessionStorage.getItem('names'+i) +    '                  '  +sessionStorage.getItem('prices'+i) + '\n'+'<input type="submit" value="Удалить" onClick="delgoods('+i+')"></div></section');
 	}
 	
-	document.getElementById('text').value+='-------------------------------- \n';
+	document.getElementById('text').value+='---------------------------------------------- \n';
 document.getElementById('text').value+=sessionStorage.getItem('sum');
 }
 }
