@@ -1,5 +1,6 @@
 body {
   background-image: url(phon.jpg);
+  /* background-color: aliceblue; */
   overflow-x: hidden;
   
     margin: 0%;
@@ -9,7 +10,7 @@ body {
 }
 
 nav {
-  background-color: #36a4ff;
+  background-color: #36a5ffbf;
   padding: 10px;
   display: flex;
   align-items: center;
@@ -79,6 +80,12 @@ nav a {
 
 }
 
+/* Сетка отелей + выбор дней */
+.bronirovanie {
+  background-image: url(phon.jpg);
+  padding: 8% 0%; 
+}
+
 .grid {
   display: grid;
   margin-top: 0%;
@@ -87,7 +94,6 @@ nav a {
 
   grid-gap: 30px;
   padding: 1%;
-  background: none;
   background-attachment: fixed;
   z-index: 4;
 }
@@ -132,4 +138,32 @@ nav a {
   grid-column-end: 10;
   grid-row-start: 1;
   grid-row-end: 4;
+}
+
+.selection {
+  margin-left: 2%;
+  border: 0%;
+  border-radius: 30px;
+  background-color: #ad2121;
+  color: whitesmoke;
+  padding: 3%;
+  display: block;
+  position: relative;
+  z-index: 2;
+  width: fit-content;
+}
+
+/* footer */
+footer {
+  background-color: #6f9bf4;
+  padding: 1% 2%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding-right: 0%; */
+  margin: 0%;
+}
+
+footer .cp {
+  justify-self: center !important;
 }

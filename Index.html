@@ -4,65 +4,68 @@
       <title>Хрыкин Илья</title>
       
       <link href="стиль.css" rel="stylesheet" type="text/css"> 
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-      <script src="корзина.js" defer></script>
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
    </head>
-<body  alink=#FFFFFF vlink=#800080>
 
-<nav>
-	<img src="hotel_coin.png" alt="логотип" id="logo">
-	<a href="main.html">Главная</a>
-	<a href="o nas.html">О нас</a>
-	<a href="#">Галерея</a>
-   <a href="корзина.html">Корзина</a>
-</nav>
+   <body  alink=#FFFFFF vlink=#800080>
 
-<!-- Сетка отелей -->
-<main class="grid">
-   <figure class="g1">
-      <a href="корзина.html"> 
-         <img src="отель 1.jpg" alt="Отель 1" onclick = "cll ('Отель 1',5000,'sp1','sp2','отель 1.jpg')">
-         <figcaption> Отель 1 </figcaption>
-      </a>
-   </figure>
+      <!-- навигация -->
+      <nav>
+         <img src="logo_coin.png" alt="логотип" id="logo">
+         <a href="main.html">Главная</a>
+         <a href="o nas.html">О нас</a>
+         <a href="корзина.html">Корзина</a>
+         <a href="javascript:openPUP()">Регистрация/Вход</a>
+      </nav>
 
-   <figure class="g2">
-      <a href="корзина.html">
-         <img src="отель 2.jpg" alt="Отель 2" onclick= "cll ('Отель 2',6000,'sp1','sp2','отель 2.jpg')">
-         <figcaption> Отель 2 </figcaption>
-      </a>
-   </figure>
+      <!-- Сетка отелей -->
+      <div class="bronirovanie">
+         <main class="grid">
+            <figure class="g1">
+               <a href="корзина.html"> 
+                  <img src="отель 1.jpg" alt="Отель 1" onclick = "cll ('Отель 1',5000,'sp1','sp2','отель 1.jpg')">
+                  <figcaption> Отель 1 </figcaption>
+               </a>
+            </figure>
 
-   <figure class="g3">
-      <a href="корзина.html">
-         <img src="отель 3.jpg" alt="Отель 3" onclick= "cll ('Отель 3',7000,'sp1','sp2','отель 3.jpg')">
-         <figcaption> Отель 3 </figcaption>
-      </a>
-   </figure>
-</main>
+            <figure class="g2">
+               <a href="корзина.html">
+                  <img src="отель 2.jpg" alt="Отель 2" onclick= "cll ('Отель 2',6000,'sp1','sp2','отель 2.jpg')">
+                  <figcaption> Отель 2 </figcaption>
+               </a>
+            </figure>
 
-<SELECT id="sp1" >
-<OPTION SELECTED VALUE="0"></OPTION>
-<OPTION VALUE="5000">1</OPTION>
-<OPTION VALUE="5000">2</OPTION>
-<OPTION VALUE="5000">3</OPTION>
-</SELECT>
-<SELECT name="543" id="sp2" >
-<OPTION SELECTED VALUE="0">Выбор </OPTION> 
-<OPTION VALUE="5000">1 день</OPTION>
-<OPTION VALUE="30000">7 дней</OPTION>
-<OPTION VALUE="60000">14 дней</OPTION>
-</SELECT>
+            <figure class="g3">
+               <a href="корзина.html">
+                  <img src="отель 3.jpg" alt="Отель 3" onclick= "cll ('Отель 3',7000,'sp1','sp2','отель 3.jpg')">
+                  <figcaption> Отель 3 </figcaption>
+               </a>
+            </figure>
+         </main>
 
-<footer>
-	<div class="cp">
-		<p>Обратная связь</p>
-		<p>✆ +7(925)758-07-04</p>
-		<p>🖂 petrgile1900@gmail.com</p>
-	</div>
-	<p>©2022, ООО "НАИЦ"</p>
-</footer>
+         <div class="selection">
+            <select name="543" id="sp2" >
+               <option selected value = "0">Выбор</option> 
+               <option value = "5000">1 день</option>
+               <option value = "30000">7 дней</option>
+               <option value = "60000">14 дней</option>
+            </select>
+         </div>
+      </div>
 
-</body>
+         
+      <!-- Футер -->
+      <footer>
+         <div class="cp">
+            <p>Обратная связь</p>
+            <p>✆ +7(900)000-00-00</p>
+            <p>🖂 Email@mail.ru</p>
+         </div>
+         <p>©2022, ООО "НАИЦ"</p>
+         <img src="logo_coin.png" alt="logo_footer">
+      </footer>
+
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+      <script src="корзина.js" defer></script>
+   </body>
 </html>
