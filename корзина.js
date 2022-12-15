@@ -41,14 +41,12 @@ sessionStorage.setItem('photo'+count, photo);
 count++;
 sessionStorage.setItem('count', count);
 }
-
 function клир() {
 document.getElementById('text').value='Сумма:'+' '+'0';
 sessionStorage.clear();
 }
 
-function delgoods(count)
-{
+function delgoods(count) {
 	sessionStorage.removeItem('names'+count)
 	sessionStorage.removeItem('prices'+count)
 	sessionStorage.removeItem('photo'+count)
