@@ -1,9 +1,9 @@
 function closePUP() {
-    document.querySelector(".container").style.display="none"
+    document.querySelector(".container").style.zIndex="-1"
 }
 
 function openPUP() {
-    document.querySelector(".container").style.display="block"
+    document.querySelector(".container").style.zIndex="10"
 }
 
 function closeOpacity() {
