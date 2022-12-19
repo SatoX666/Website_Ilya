@@ -1,0 +1,67 @@
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    width: 300000px;    
+    overflow: hidden;
+    
+}
+.menu a {
+  text-decoration: none;
+  font-family: sans-serif;
+  color: #fdfdfd;
+  display: inline-block;
+  padding: 20px 20px;
+  background-color: rgba(255, 0, 0, 0);
+  outline: none;
+  margin-right: 440px;
+
+
+  
+}
+.menu li {
+ display: inline;
+ float: left;
+} 
+
+
+
+
+body{
+  background-image: url(phon.jpg);
+  overflow-x:hidden;
+}
+
+.test1 {
+  height:30px;
+  width:120px;
+  background-color:transparent; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+  font-size: 550%
+ 
+}
+
+.test2{
+  height:30px;
+  width:120px;
+  background-color:transparent; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+  text-align: center;
+}
+
+.test3{
+  height:30px;
+  width:120px;
+  background-color:transparent; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+  text-align: center;
+
+}
+
