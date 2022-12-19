@@ -1,0 +1,41 @@
+<input type="button" value="Кнопка 2" 
+< li= style="
+    background-color: transparent;
+    color: white;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+">
+
+
+
+
+
+
+
+.test1 {
+  height:20px;
+  width:20px;
+  background-color:transparent; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+}
+
+.test2{
+  height:20px;
+  width:20px;
+  background-color:transparent; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+}
+
+.test3{
+  height:20px;
+  width:20px;
+  background-color:transparent; 
+  color: white; 
+  border: none; 
+  cursor: pointer;
+}
